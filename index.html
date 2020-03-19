@@ -7,12 +7,15 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
+      aas
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script src="./assets/js/three.r95.min.js"></script>
+    <script src="./assets/js/vanta.dots.min.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -30,5 +33,18 @@
         </div>
       </div>
     </div>
+    <script>
+      VANTA.DOTS({
+        el: ".wrapper",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0xff3333,
+        color2: 0xff3333
+      });
+    </script>
   </body>
 </html>

@@ -20,16 +20,14 @@ body {
 }
 
 .content {
-    text-align: center;
+    text-align: left;
     color: white;
     padding: 0px 20px;
 }
 
 .content h1 {
     font-size: 36px;
-    max-width: 608px;
-    width: 100%;
-    margin: 0 auto;
+    max-width: 618px;
     margin-bottom: 70px;
     font-weight: normal;
 }

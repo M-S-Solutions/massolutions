@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>M&S Solutions</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-      aas
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" aas />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" href="./style.css" />
     <script src="./assets/js/three.r95.min.js"></script>
-    <script src="./assets/js/vanta.dots.min.js"></script>
-  </head>
-  <body>
+    <script src="./assets/js/vanta.globe.min.js"></script>
+</head>
+
+<body>
     <div class="wrapper">
-      <div class="container">
-        <div class="top">
-          <img class="logo" src="./assets/text-logo.svg" alt="" />
+        <div class="container">
+            <div class="top">
+                <img class="logo" src="./assets/text-logo.svg" alt="" />
+            </div>
+            <div class="content">
+                <h1>We create Beautiful, digital, next gen software solutions</h1>
+                <div class="button">Get in touch</div>
+            </div>
+            <div class="footer">
+                <a href="http://maxlloyd.no">Maximilian øystå Lloyd</a>
+                <a href="https://sondrebh.com/">Sondre Bye Humberset</a>
+            </div>
         </div>
-        <div class="content">
-          <h1>We create Beautiful, digital, next gen software solutions</h1>
-          <div class="button">Get in touch</div>
-        </div>
-        <div class="footer">
-          <a href="http://maxlloyd.no">Maximilian øystå Lloyd</a>
-          <a href="https://sondrebh.com/">Sondre Bye Humberset</a>
-        </div>
-      </div>
     </div>
     <script>
-      VANTA.DOTS({
-        el: ".wrapper",
-        mouseControls: true,
-        touchControls: true,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        color: 0xff3333,
-        color2: 0xff3333
-      });
+        VANTA.GLOBE({
+            el: ".wrapper",
+            mouseControls: true,
+            touchControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0x222222,
+            color: 0xFF33333,
+            color1: 0xFF3333
+        })
     </script>
-  </body>
+</body>
+
 </html>

@@ -25,6 +25,15 @@ body {
     padding: 0px 20px;
 }
 
+.content h1 {
+    font-size: 36px;
+    max-width: 608px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    font-weight: normal;
+}
+
 .top {
     padding-top: 43px;
 }
@@ -57,4 +66,5 @@ body {
     color: #FF3333;
     font-weight: bold;
     cursor: pointer;
+    border-radius: 8px;
 }

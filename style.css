@@ -1,0 +1,34 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+
+    background-image: url('./assets/background.png');
+    background-size: cover;
+}
+
+.container {
+    max-width: 1256px;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: space-between;
+}
+
+.content {
+    text-align: center;
+    color: white;
+}
+
+.top {
+    padding-top: 43px;
+}
+
+.logo {
+    width: 205px;
+    height: 39px;
+}

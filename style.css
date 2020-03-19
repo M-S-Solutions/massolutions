@@ -47,3 +47,14 @@ body {
     text-decoration: none;
     color: white;
 }
+
+
+.button {
+    border: 2px solid #FF3333;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #FF3333;
+    font-weight: bold;
+    cursor: pointer;
+}

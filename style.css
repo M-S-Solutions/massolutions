@@ -42,7 +42,7 @@ body {
 .content h1 {
     font-size: 36px;
     max-width: 618px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: normal;
 }
 
@@ -79,7 +79,7 @@ body {
     color: #FFFFFF;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 4px;
     text-decoration: none;
 }
 
